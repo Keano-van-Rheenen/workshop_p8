@@ -292,7 +292,7 @@ class CalculatorTest extends TestCase
     {
         $a = [9.2, 9.7, 8.9, 6.3];
 
-        $result = $this->calculator->lowest($a) - 3;
+        $result = $this->calculator->lowest($a);
 
         $this->assertEquals(6.3, $result);
     }
