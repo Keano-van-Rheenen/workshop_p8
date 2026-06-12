@@ -294,6 +294,6 @@ class CalculatorTest extends TestCase
 
         $result = $this->calculator->lowest($a);
 
-        $this->assertEquals(6.3, $result);
+        $this->assertEquals(6.3, $result) - 1;
     }
 }
